@@ -1,0 +1,35 @@
+<%- include ('../partials/header') -%>
+
+
+
+<div class= "container">
+<header id="box" class="jumbotron">
+    <div class="container">
+  <h1><i class="fas fa-car"></i> Welcome To TopGear!</h1>
+  <p>View our hand-picked exotic cars from all over the world</p>
+ <p>
+    <a class="btn btn-success btn-large"  href="/cars/new"><i class="fas fa-plus"></i> Add A New Car</a>
+  </p>
+  </div>
+</header>
+
+<div class="row text-center" style="diplay: flex; flex-wrap: wrap;">
+    
+<% cars.forEach(function(car){ %>
+   <div class ="col-md-3 col-sm-6">
+       <div class="thumbnail">
+            <img src="<%= car.image %>">
+            <div class="caption">
+               <h4> <%= car.name %> </h4> 
+            </div>
+            <p><a class="btn btn-outline-primary" href="/cars/<%= car._id %>"><i class="fas fa-info"></i> More Info</a></p>
+       </div>
+      
+      
+    </div>
+   <%  }); %>
+   
+   
+   </div>
+</div>
+ <%- include ('../partials/footer') -%>
