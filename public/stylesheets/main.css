@@ -1,0 +1,103 @@
+.thumbnail img{
+    width:100%;
+    
+}
+#thumbnail{
+    padding:0;
+}
+.thumbnail .caption-full{
+    padding:9px;
+    
+}
+
+#delete-form{
+    display:inline;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+     color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+body {
+ background-image: url("http://innovationinsider.com.br/wp-content/uploads/2018/02/Abstract-Background-Amazing-HD-Wallpaper-14091.jpg")
+}
+
+
+#box{
+    color: #fff;
+	background: url("https://www.pixelstalk.net/wp-content/uploads/2016/10/Anime-Wallpapers-And-Backgrounds-Free-Download.jpg") ;
+	background-size: 100%;
+	
+}
+#carbox{
+    background: url("https://wallup.net/wp-content/uploads/2016/01/13829-anime-Clannad-Furukawa_Nagisa-Ushio_Okazaki.jpg");
+   
+}
+
+
+
+#commentbox{
+    color: #33b748;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(44, 62, 80, 1.0);
+
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:rgba(52, 73, 94,1.0);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+
+
+
+
+
+
